@@ -1,0 +1,120 @@
+[bg:0][13-Oct 11:31:04 PM] [INFO] Started minishell 201505521 pid[5643] cwd=[/home/mtk/git-os-shell]
+[bg:0][13-Oct 11:31:07 PM] [INFO] ls
+[bg:0][13-Oct 11:31:07 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:07 PM] [INFO] EnvVar resolved ls
+[bg:0][13-Oct 11:31:07 PM] [TRACE] Parsed tokens:
+ls:  <ls>
+[bg:0][13-Oct 11:31:07 PM] [TRACE] Parsed tokens:
+ls:  <ls>
+[bg:0][13-Oct 11:31:07 PM] [INFO] cmdType is 9 numOfcmds 1
+[bg:0][13-Oct 11:31:07 PM] [INFO] forked
+[child 5644] [bg:0][13-Oct 11:31:07 PM] [INFO] forked
+[child 5644] [bg:0][13-Oct 11:31:07 PM] [INFO] main child running 
+[child 5645] [bg:0][13-Oct 11:31:07 PM] [INFO] in running cmd
+[bg:0][13-Oct 11:31:08 PM] [INFO] pwd
+[bg:0][13-Oct 11:31:08 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:08 PM] [INFO] EnvVar resolved pwd
+[bg:0][13-Oct 11:31:08 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:08 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:08 PM] [INFO] cmdType is 4 numOfcmds 1
+[bg:0][13-Oct 11:31:08 PM] [INFO] builtin pwd
+[bg:0][13-Oct 11:31:09 PM] [INFO] cd ../
+[bg:0][13-Oct 11:31:09 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:09 PM] [INFO] EnvVar resolved cd ../
+[bg:0][13-Oct 11:31:09 PM] [TRACE] Parsed tokens:
+cd:  <cd> <../>
+[bg:0][13-Oct 11:31:09 PM] [TRACE] Parsed tokens:
+cd:  <cd> <../>
+[bg:0][13-Oct 11:31:09 PM] [INFO] cmdType is 3 numOfcmds 1
+[bg:0][13-Oct 11:31:09 PM] [INFO] builtin cd
+[bg:0][13-Oct 11:31:09 PM] [INFO] PROMPT updated to [mini-shell@/home/mtk> ]
+[bg:0][13-Oct 11:31:10 PM] [INFO] cd -
+[bg:0][13-Oct 11:31:10 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:10 PM] [INFO] EnvVar resolved cd -
+[bg:0][13-Oct 11:31:10 PM] [TRACE] Parsed tokens:
+cd:  <cd> <->
+[bg:0][13-Oct 11:31:10 PM] [TRACE] Parsed tokens:
+cd:  <cd> <->
+[bg:0][13-Oct 11:31:10 PM] [INFO] cmdType is 3 numOfcmds 1
+[bg:0][13-Oct 11:31:10 PM] [INFO] builtin cd
+[bg:0][13-Oct 11:31:10 PM] [INFO] going to old is /home/mtk/git-os-shell
+[bg:0][13-Oct 11:31:10 PM] [INFO] PROMPT updated to [mini-shell@/home/mtk/git-os-shell> ]
+[bg:0][13-Oct 11:31:11 PM] [INFO] pwd
+[bg:0][13-Oct 11:31:11 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:11 PM] [INFO] EnvVar resolved pwd
+[bg:0][13-Oct 11:31:11 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:11 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:11 PM] [INFO] cmdType is 4 numOfcmds 1
+[bg:0][13-Oct 11:31:11 PM] [INFO] builtin pwd
+[bg:0][13-Oct 11:31:17 PM] [INFO] export some=value
+[bg:0][13-Oct 11:31:17 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:17 PM] [INFO] EnvVar resolved export some=value
+[bg:0][13-Oct 11:31:17 PM] [TRACE] Parsed tokens:
+export:  <export> <some=value>
+[bg:0][13-Oct 11:31:17 PM] [TRACE] Parsed tokens:
+export:  <export> <some=value>
+[bg:0][13-Oct 11:31:17 PM] [INFO] cmdType is 1 numOfcmds 1
+[bg:0][13-Oct 11:31:25 PM] [INFO] env
+[bg:0][13-Oct 11:31:25 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:25 PM] [INFO] EnvVar resolved env
+[bg:0][13-Oct 11:31:25 PM] [TRACE] Parsed tokens:
+env:  <env>
+[bg:0][13-Oct 11:31:25 PM] [TRACE] Parsed tokens:
+env:  <env>
+[bg:0][13-Oct 11:31:25 PM] [INFO] cmdType is 9 numOfcmds 1
+[bg:0][13-Oct 11:31:25 PM] [INFO] forked
+[child 5646] [bg:0][13-Oct 11:31:25 PM] [INFO] forked
+[child 5646] [bg:0][13-Oct 11:31:25 PM] [INFO] main child running 
+[child 5647] [bg:0][13-Oct 11:31:25 PM] [INFO] in running cmd
+[bg:0][13-Oct 11:31:33 PM] [INFO] echo your home is $HOME
+[bg:0][13-Oct 11:31:33 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:33 PM] [TRACE] after replace in is echo your home is /home/mtk
+[bg:0][13-Oct 11:31:33 PM] [INFO] EnvVar resolved echo your home is /home/mtk
+[bg:0][13-Oct 11:31:33 PM] [TRACE] Parsed tokens:
+echo:  <echo> <your> <home> <is> </home/mtk>
+[bg:0][13-Oct 11:31:33 PM] [TRACE] Parsed tokens:
+echo:  <echo> <your> <home> <is> </home/mtk>
+[bg:0][13-Oct 11:31:33 PM] [INFO] cmdType is 0 numOfcmds 1
+[bg:0][13-Oct 11:31:33 PM] [INFO] builtin echo
+[bg:0][13-Oct 11:31:33 PM] [INFO] pwd
+[bg:0][13-Oct 11:31:33 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:33 PM] [INFO] EnvVar resolved pwd
+[bg:0][13-Oct 11:31:33 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:33 PM] [TRACE] Parsed tokens:
+pwd:  <pwd>
+[bg:0][13-Oct 11:31:33 PM] [INFO] cmdType is 4 numOfcmds 1
+[bg:0][13-Oct 11:31:33 PM] [INFO] builtin pwd
+[bg:0][13-Oct 11:31:39 PM] [WARN] Caught CtrlC
+[bg:0][13-Oct 11:31:53 PM] [INFO] wc < util.c > testfiles/out
+[bg:0][13-Oct 11:31:53 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:53 PM] [INFO] EnvVar resolved wc < util.c > testfiles/out
+[bg:0][13-Oct 11:31:53 PM] [INFO] got inredirect
+[bg:0][13-Oct 11:31:53 PM] [INFO] got outredirect
+[bg:0][13-Oct 11:31:53 PM] [TRACE]  Output is redirected from testfiles/out
+ <wc>
+[bg:0][13-Oct 11:31:53 PM] [TRACE]  Output is redirected from testfiles/out
+ <wc>
+[bg:0][13-Oct 11:31:53 PM] [INFO] cmdType is 9 numOfcmds 1
+[bg:0][13-Oct 11:31:53 PM] [INFO] forked
+[child 5648] [bg:0][13-Oct 11:31:53 PM] [INFO] forked
+[child 5648] [bg:0][13-Oct 11:31:53 PM] [INFO] main child running 
+[child 5649] [bg:0][13-Oct 11:31:53 PM] [INFO] in running cmd
+[bg:0][13-Oct 11:31:57 PM] [INFO] cat testfiles/out
+[bg:0][13-Oct 11:31:57 PM] [TRACE] in resolve env variable
+[bg:0][13-Oct 11:31:57 PM] [INFO] EnvVar resolved cat testfiles/out
+[bg:0][13-Oct 11:31:57 PM] [TRACE] Parsed tokens:
+cat:  <cat> <testfiles/out>
+[bg:0][13-Oct 11:31:57 PM] [TRACE] Parsed tokens:
+cat:  <cat> <testfiles/out>
+[bg:0][13-Oct 11:31:57 PM] [INFO] cmdType is 9 numOfcmds 1
+[bg:0][13-Oct 11:31:57 PM] [INFO] forked
+[child 5650] [bg:0][13-Oct 11:31:57 PM] [INFO] forked
+[child 5650] [bg:0][13-Oct 11:31:57 PM] [INFO] main child running 
+[child 5651] [bg:0][13-Oct 11:31:57 PM] [INFO] in running cmd
+[bg:0][13-Oct 11:32:01 PM] [INFO] exit
+[bg:0][13-Oct 11:32:01 PM] [INFO] Bye...

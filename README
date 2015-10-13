@@ -1,0 +1,39 @@
+Given Objective that are accomplished
+
+1. Shell Builts cd, pwd, echo, export, simple assignment of variables
+2. Multipipes and I/O Redirection
+   $ ls | grep "|"
+   $ ls | wc
+   $ ls | wc | wc
+   $ ls | grep "abc" | wc
+   $ wc < infile > outfile
+   $ wc > outfile < infile
+   $ wc < infile | grep 2 | wc > out
+3. Background and foreground for single command input
+   $ sleep 50 &
+   $ fg #<pid>
+4. History below features done
+   $ history
+   $ history 5
+   $ history 5 | grep ls
+   $ history | grep cd
+   $ history 5 > outfile
+   $ history 5 | grep ls > outfile
+   $ !!
+   $ !24
+5. Ctrl-C signal handled, main shell is not killed, children are killed on SIGINT signal.
+
+
+Additional Features
+
+1. Logging feature
+ - Get a detailed info of what is happening inside the shell executionby tailing the file .201505521_minishell.log
+ - Timestamp based logging feature
+ - display what is parsed from input string
+ - can set loglevel via command line, pass '-l 0' for higher details
+2. Global environment variables replaced all times
+   $ ls | grep $HOME
+3. shell check if given command is valid, by searching in the PATH for executable with given name
+4. Pipe character within quotes handled
+
+
