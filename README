@@ -21,7 +21,7 @@ Given Objective that are accomplished
    $ history 5 | grep ls > outfile
    $ !!
    $ !24
-5. Ctrl-C signal handled, main shell is not killed, children are killed on SIGINT signal.
+5. Ctrl-C/SIGINT signal handled for main shell
 
 
 Additional Features
